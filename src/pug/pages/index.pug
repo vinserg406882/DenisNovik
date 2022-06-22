@@ -1,0 +1,123 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="./css/index.css")
+        link(rel="stylesheet" href="./css/shared.css")
+        link(rel='preconnect' href='https://fonts.googleapis.com')
+        link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+        link(href='https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap' rel='stylesheet')
+        script(src="https://kit.fontawesome.com/30b69f8f5c.js" crossorigin="anonymous")
+        title DenisNovik
+    body 
+        header 
+            .header__container.container
+                .menu
+                    a(href="#") Home 
+                    a(href="#") About me 
+                    a(href="#") Skills 
+                    a(href="#") Portfolio 
+                    a(href="#") Contacts 
+        main
+            .main__container.container 
+                .main__text 
+                    h1.logo
+                        | Denis
+                        br
+                        | Novik
+                    h2.info
+                        | UX | UI designer
+                        br
+                        | 24 years old, Minsk
+                    .language 
+                        .ru RU
+                        .or |
+                        .eng ENG
+                    .burger 
+                        button
+                            i(class="fa-solid fa-bars")
+                .main__image
+                    img(src="./img/main/main-image.jpg" alt="")
+                .main__image2 
+                    img(src="./img/main/main-image2.jpg" alt="")
+        section.about 
+            .about__container.container 
+                h2.title About me
+                .text 
+                    h3 Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything connected with it.
+                    h3 I'm studying at courses "Web and mobile design interfaces" in IT-Academy.
+                    h3 Ready to implement excellent projects with wonderful people.
+        section.skills
+            .skills__container.container 
+                h3.title Skills
+                h4.subtitle I work in such programs as
+                .box__item 
+                    .item 
+                        .icon 
+                            img(src="./img/skills/ps.svg" alt="")
+                        .name Adobe Photoshop
+                        .stars 
+                            img(src="./img/skills/star-black.svg" alt="")
+                            img(src="./img/skills/star-black.svg" alt="")
+                            img(src="./img/skills/star-black.svg" alt="")
+                            img(src="./img/skills/star-black.svg" alt="")
+                            img(src="./img/skills/star-white.svg" alt="")
+                    .item 
+                        .icon 
+                            img(src="./img/skills/ai.svg" alt="")
+                        .name Adobe Illustrator
+                        .stars 
+                            img(src="./img/skills/star-black.svg" alt="")
+                            img(src="./img/skills/star-black.svg" alt="")
+                            img(src="./img/skills/star-black.svg" alt="")
+                            img(src="./img/skills/star-white.svg" alt="")
+                            img(src="./img/skills/star-white.svg" alt="")
+                    .item 
+                        .icon 
+                            img(src="./img/skills/ae.svg" alt="")
+                        .name Adobe After Effects
+                        .stars 
+                            img(src="./img/skills/star-black.svg" alt="")
+                            img(src="./img/skills/star-black.svg" alt="")
+                            img(src="./img/skills/star-black.svg" alt="")
+                            img(src="./img/skills/star-black.svg" alt="")
+                            img(src="./img/skills/star-white.svg" alt="")
+                    .item 
+                        .icon 
+                            img(src="./img/skills/fig.svg" alt="")
+                        .name Figma
+                        .stars 
+                            img(src="./img/skills/star-black.svg" alt="")
+                            img(src="./img/skills/star-black.svg" alt="")
+                            img(src="./img/skills/star-black.svg" alt="")
+                            img(src="./img/skills/star-black.svg" alt="")
+                            img(src="./img/skills/star-white.svg" alt="")
+        section.portfolio
+            .portfolio__container.container 
+                h3.title Portfolio
+                .portfolio__box 
+                    .box__item 
+                        .photo 
+                            img(src="./img/portfolio/photo1.jpg" alt="")
+                        .name Online fashion store - Homepage
+                    .box__item 
+                        .photo 
+                            img(src="./img/portfolio/photo2.jpg" alt="")
+                        .name Reebok Store - Concept
+                    .box__item 
+                        .photo 
+                            img(src="./img/portfolio/photo3.jpg" alt="")
+                        .name Braun Landing Page - Concept
+        footer.contacts
+            .contacts__container.container 
+                h4.title Contacts
+                h5.subtitle Want to know more or just chat? You are welcome!
+                button Send message
+                .social 
+                    img(src="./img/contacts/in.png" alt="")
+                    img(src="./img/contacts/insta.png" alt="")
+                    img(src="./img/contacts/be.png" alt="")
+                    img(src="./img/contacts/ball.png" alt="")
+                .text Like me on LinkedIn, Instagram, Behance, Dribble

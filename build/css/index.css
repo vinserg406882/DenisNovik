@@ -1,0 +1,288 @@
+header {
+  margin-bottom: 40px;
+}
+@media (max-width: 700px) {
+  header {
+    display: none;
+  }
+}
+header .header__container .menu {
+  border-bottom: 1px solid #828282;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 33px 0;
+}
+header .header__container .menu a {
+  color: #828282;
+  line-height: 22px;
+}
+header .header__container .menu a:hover {
+  color: #070707;
+}
+
+main .main__container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 105px;
+}
+@media (max-width: 700px) {
+  main .main__container {
+    padding-top: 65px;
+  }
+}
+main .main__container .main__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+@media (max-width: 700px) {
+  main .main__container .main__text {
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+  }
+}
+main .main__container .main__text .logo {
+  font-size: 47.3392px;
+  line-height: 59px;
+  color: #070707;
+}
+@media (max-width: 700px) {
+  main .main__container .main__text .logo {
+    margin-bottom: 23px;
+  }
+}
+main .main__container .main__text .info {
+  line-height: 22px;
+  color: #070707;
+}
+@media (max-width: 700px) {
+  main .main__container .main__text .info {
+    margin-bottom: 37px;
+  }
+}
+main .main__container .main__text .language {
+  display: flex;
+  gap: 5px;
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+}
+@media (max-width: 700px) {
+  main .main__container .main__text .language {
+    display: none;
+  }
+}
+main .main__container .main__text .language .ru {
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  cursor: pointer;
+}
+main .main__container .main__text .language .or {
+  font-size: 16px;
+  line-height: 20px;
+  color: #070707;
+}
+main .main__container .main__text .language .eng {
+  font-size: 16px;
+  line-height: 20px;
+  color: #070707;
+  cursor: pointer;
+}
+main .main__container .main__text .burger {
+  display: none;
+}
+@media (max-width: 700px) {
+  main .main__container .main__text .burger {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+}
+main .main__container .main__text .burger button {
+  font-size: 35px;
+  background: none;
+}
+main .main__container .main__image {
+  width: 100%;
+}
+@media (max-width: 700px) {
+  main .main__container .main__image {
+    display: none;
+  }
+}
+main .main__container .main__image img {
+  width: 100%;
+}
+main .main__container .main__image2 {
+  display: none;
+  width: 100%;
+}
+@media (max-width: 700px) {
+  main .main__container .main__image2 {
+    display: block;
+  }
+}
+main .main__container .main__image2 img {
+  width: 100%;
+}
+
+.about {
+  background-color: #F6F6F6;
+}
+.about .about__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 20px 107px 20px;
+}
+.about .about__container .title {
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+  margin-bottom: 18px;
+}
+.about .about__container .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 41%;
+}
+.about .about__container .text h3 {
+  line-height: 22px;
+  color: #070707;
+  text-align: center;
+}
+
+.skills .skills__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 91px 20px 110px 20px;
+}
+.skills .skills__container .title {
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+  margin-bottom: 70px;
+}
+.skills .skills__container .subtitle {
+  line-height: 22px;
+  color: #070707;
+  margin-bottom: 84px;
+}
+.skills .skills__container .box__item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+@media (max-width: 700px) {
+  .skills .skills__container .box__item {
+    flex-direction: column;
+    gap: 82px;
+  }
+}
+.skills .skills__container .box__item .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills .skills__container .box__item .item .icon {
+  margin-bottom: 24px;
+}
+.skills .skills__container .box__item .item .name {
+  margin-bottom: 40px;
+}
+.skills .skills__container .box__item .item .stars {
+  display: flex;
+  gap: 9px;
+}
+.portfolio {
+  background-color: #F6F6F6;
+}
+.portfolio .portfolio__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 113px 20px 96px 20px;
+}
+.portfolio .portfolio__container .title {
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+  margin-bottom: 47px;
+}
+.portfolio .portfolio__container .portfolio__box {
+  display: flex;
+  flex-direction: column;
+  gap: 99px;
+}
+.portfolio .portfolio__container .portfolio__box .box__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+}
+.portfolio .portfolio__container .portfolio__box .box__item .photo {
+  width: 100%;
+}
+.portfolio .portfolio__container .portfolio__box .box__item .photo img {
+  width: 100%;
+}
+.portfolio .portfolio__container .portfolio__box .box__item .name {
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #070707;
+}
+
+.contacts .contacts__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 114px 20px 123px 20px;
+}
+.contacts .contacts__container .title {
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+  margin-bottom: 20px;
+}
+.contacts .contacts__container .subtitle {
+  line-height: 22px;
+  color: #070707;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.contacts .contacts__container button {
+  line-height: 22px;
+  color: #FFFFFF;
+  background-color: #070707;
+  border-radius: 100px;
+  padding: 13px 28px;
+  margin-bottom: 86px;
+}
+@media (max-width: 700px) {
+  .contacts .contacts__container button {
+    width: 100%;
+  }
+}
+.contacts .contacts__container .social {
+  display: flex;
+  gap: 61px;
+  margin-bottom: 46px;
+}
+@media (max-width: 700px) {
+  .contacts .contacts__container .social {
+    gap: 45px;
+  }
+}
+.contacts .contacts__container .text {
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  text-align: center;
+}
